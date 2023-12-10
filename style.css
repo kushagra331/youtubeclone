@@ -107,15 +107,20 @@ body {
 }
 .img-cls{
   width: 300px;
+  border-radius: 20px;
+
 }
 .grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
-  background-color: rgb(240, 238, 238);
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  /* background-color: rgb(240, 238, 238); */
 }
 .grid-card{
   width: 300px;
+}
 
+.img-cls:hover{
+  border-radius: 0px;
 }
 .grid-child{
   display: flex;
@@ -129,4 +134,3 @@ body {
   display: flex;
   gap: 20px;
 }
-
